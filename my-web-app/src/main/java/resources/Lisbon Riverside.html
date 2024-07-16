@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisbon Riverside Loft</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            width: 600px; /* Adjust width of each image */
+            height: 400px; /* Adjust height of each image */
+            object-fit: cover; /* Maintain aspect ratio and cover area */
+            margin-right: 20px; /* Space between images */
+        }
+        .accommodation-details {
+            margin-bottom: 20px;
+        }
+        .amenities {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="brand">Accommodations Reservation System</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="berlin.html">Berlin Penthouse</a></li>
+            <li><a href="munich.html">Munich City Center Studio</a></li>
+            <li><a href="frankfurt.html">Frankfurt River View Loft</a></li>
+            <li><a href="luxury-beach-house.html">Luxury Beach House</a></li>
+            <li><a href="frankfurt-river-view.html">Frankfurt River View</a></li>
+            <li><a href="frankfurt-city-loft.html">Frankfurt City Loft</a></li>
+            <li><a href="paris-eiffel-tower-view.html">Paris Eiffel Tower View</a></li>
+            <li><a href="rome-historic-center.html">Rome Historic Center</a></li>
+            <li><a href="amsterdam-canalside.html">Amsterdam Canalside</a></li>
+            <li><a href="heidelberg-historic-castle-suite.html">Heidelberg Historic Castle Suite</a></li>
+            <li><a href="vienna-imperial-palace-suite.html">Vienna Imperial Palace Suite</a></li>
+            <li><a href="zurich-lakefront-apartment.html">Zurich Lakefront Apartment</a></li>
+            <li><a href="brussels-grand-place-loft.html">Brussels Grand Place Loft</a></li>
+            <li><a href="barcelona-gothic-quarter-apartment.html">Barcelona Gothic Quarter Apartment</a></li>
+            <li><a href="prague-old-town-square-hotel.html">Prague Old Town Square Hotel</a></li>
+            <li><a href="lisbon-riverside-loft.html">Lisbon Riverside Loft</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1>Lisbon Riverside Loft</h1>
+            <div class="gallery">
+                <img src="lisbon-riverside-loft1.jpg" alt="Lisbon Riverside Loft Image 1">
+                <img src="lisbon-riverside-loft2.jpg" alt="Lisbon Riverside Loft Image 2">
+                <img src="lisbon-riverside-loft3.jpg" alt="Lisbon Riverside Loft Image 3">
+            </div>
+            <div class="accommodation-details">
+                <h2>Description</h2>
+                <p>Experience the charm of Lisbon with a stay in this stylish riverside loft. Offering stunning views of the Tagus River and a prime location near popular attractions, this loft combines comfort and convenience.</p>
+                <p>Size: 1000 sq ft</p>
+                <p>Bedrooms: 1</p>
+                <p>Bathrooms: 1</p>
+                <p>Max Guests: 2</p>
+                <p>Price per night: $600</p>
+            </div>
+            <div class="amenities">
+                <h2>Amenities</h2>
+                <ul>
+                    <li>Riverside location</li>
+                    <li>Modern design</li>
+                    <li>Fully equipped kitchen</li>
+                    <li>Complimentary breakfast</li>
+                    <li>Free Wi-Fi</li>
+                    <li>Proximity to attractions</li>
+                </ul>
+            </div>
+            <div class="booking-form">
+                <h2>Book Your Stay</h2>
+                <form action="#" method="post">
+                    <label for="checkin">Check-in Date:</label>
+                    <input type="date" id="checkin" name="checkin" required>
+                    <label for="checkout">Check-out Date:</label>
+                    <input type="date" id="checkout" name="checkout" required>
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" max="2" required>
+                    <input type="submit" value="Book Now">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

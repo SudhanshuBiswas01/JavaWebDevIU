@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berlin Penthouse Apartment</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<style>
+    .gallery {
+        display: flex;
+        overflow-x: auto;
+        margin-bottom: 20px;
+    }
+    .gallery img {
+        width: 600px; /* Adjust width of each image */
+        height: 400px; /* Adjust height of each image */
+        object-fit: cover; /* Maintain aspect ratio and cover area */
+        margin-right: 20px; /* Space between images */
+    }
+</style>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="brand">Accommodations Reservation System</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1>Berlin Penthouse Apartment</h1>
+            <div class="gallery">
+                <img src="Berlin penthouse.jpeg" alt="Berlin Penthouse Apartment Image 1">
+                <img src="Berlin penthouse.jpeg" alt="Berlin Penthouse Apartment Image 2">
+                <img src="Berlin penthouse.jpeg" alt="Berlin Penthouse Apartment Image 3">
+            </div>
+            <div class="accommodation-details">
+                <h2>Description</h2>
+                <p>Located in the heart of Berlin, this luxurious penthouse apartment offers stunning views of the city skyline...</p>
+
+                <h2>Amenities</h2>
+                <ul>
+                    <li>Free Wi-Fi</li>
+                    <li>Fully equipped kitchen</li>
+                    <li>24-hour concierge service</li>
+                    <li>Private balcony</li>
+                    <!-- Add more amenities as needed -->
+                </ul>
+
+                <h2>Reviews</h2>
+                <p>"Amazing place, great location!" - Jane Doe</p>
+                <p>"The best stay we've ever had." - John Smith</p>
+                <!-- Add more reviews -->
+
+                <h2>Book Now</h2>
+                <form action="booking.html" method="post">
+                    <label for="checkin">Check-in:</label>
+                    <input type="date" id="checkin" name="checkin" required>
+                    <label for="checkout">Check-out:</label>
+                    <input type="date" id="checkout" name="checkout" required>
+                    <label for="guests">Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" required>
+                    <button type="submit">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- link this page with the main file ?? -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Accommodations Reservation System. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

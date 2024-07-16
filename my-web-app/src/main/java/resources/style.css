@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar .brand {
+    font-size: 1.5em;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.accommodation-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.accommodation-card img {
+    width: 100%;
+    height: auto;
+}
+
+.accommodation-details {
+    padding: 20px;
+}
+
+.accommodation-details h2 {
+    margin: 0 0 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.accommodation-card {
+    width: 30%; /* set width to 30% to fit 3 cards per row */
+    margin: 10px; /* add some margin for spacing */
+    display: inline-block; /* make cards inline-block to arrange horizontally */
+    vertical-align: top; /* align cards to the top */
+}
+
+.accommodation-card a {
+    display: block; /* make the <a> tag a block element */
+    text-decoration: none; /* remove underline from the link */
+    color: inherit; /* inherit text color */
+}
+
+.accommodation-card img {
+    width: 100%; /* set image width to 100% of card width */
+    height: 150px; /* set image height to 150px */
+    object-fit: cover; /* make image cover the entire card area */
+    border-radius: 10px; /* add some border radius for a nicer look */
+}
+
+.accommodation-details {
+    padding: 10px;
+}
+
+.accommodation-card h2,
+.accommodation-card p {
+    margin: 0;
+    padding: 0;
+}

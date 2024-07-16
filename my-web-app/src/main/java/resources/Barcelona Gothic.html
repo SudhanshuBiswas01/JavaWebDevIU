@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcelona Gothic Quarter Apartment</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            width: 600px; /* Adjust width of each image */
+            height: 400px; /* Adjust height of each image */
+            object-fit: cover; /* Maintain aspect ratio and cover area */
+            margin-right: 20px; /* Space between images */
+        }
+        .accommodation-details {
+            margin-bottom: 20px;
+        }
+        .amenities {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="brand">Accommodations Reservation System</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="berlin.html">Berlin Penthouse</a></li>
+            <li><a href="munich.html">Munich City Center Studio</a></li>
+            <li><a href="frankfurt.html">Frankfurt River View Loft</a></li>
+            <li><a href="luxury-beach-house.html">Luxury Beach House</a></li>
+            <li><a href="frankfurt-river-view.html">Frankfurt River View</a></li>
+            <li><a href="frankfurt-city-loft.html">Frankfurt City Loft</a></li>
+            <li><a href="paris-eiffel-tower-view.html">Paris Eiffel Tower View</a></li>
+            <li><a href="rome-historic-center.html">Rome Historic Center</a></li>
+            <li><a href="amsterdam-canalside.html">Amsterdam Canalside</a></li>
+            <li><a href="heidelberg-historic-castle-suite.html">Heidelberg Historic Castle Suite</a></li>
+            <li><a href="vienna-imperial-palace-suite.html">Vienna Imperial Palace Suite</a></li>
+            <li><a href="zurich-lakefront-apartment.html">Zurich Lakefront Apartment</a></li>
+            <li><a href="brussels-grand-place-loft.html">Brussels Grand Place Loft</a></li>
+            <li><a href="barcelona-gothic-quarter-apartment.html">Barcelona Gothic Quarter Apartment</a></li>
+            <li><a href="prague-old-town-square-hotel.html">Prague Old Town Square Hotel</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1>Barcelona Gothic Quarter Apartment</h1>
+            <div class="gallery">
+                <img src="Barcelona Gothic Quarter Apartment.jpg" alt="Barcelona Gothic Quarter Apartment Image 1">
+                <img src="Barcelona Gothic Quarter Apartment.jpg" alt="Barcelona Gothic Quarter Apartment Image 2">
+                <img src="Barcelona Gothic Quarter Apartment.jpg" alt="Barcelona Gothic Quarter Apartment Image 3">
+            </div>
+            <div class="accommodation-details">
+                <h2>Description</h2>
+                <p>Stay in the heart of Barcelona's historic Gothic Quarter in this charming apartment. Enjoy the vibrant atmosphere and rich history right at your doorstep, with modern comforts inside.</p>
+                <p>Size: 1200 sq ft</p>
+                <p>Bedrooms: 2</p>
+                <p>Bathrooms: 1</p>
+                <p>Max Guests: 4</p>
+                <p>Price per night: $750</p>
+            </div>
+            <div class="amenities">
+                <h2>Amenities</h2>
+                <ul>
+                    <li>Historic location</li>
+                    <li>Private balcony</li>
+                    <li>Fully equipped kitchen</li>
+                    <li>Complimentary breakfast</li>
+                    <li>Free Wi-Fi</li>
+                    <li>Close to major attractions</li>
+                </ul>
+            </div>
+            <div class="booking-form">
+                <h2>Book Your Stay</h2>
+                <form action="#" method="post">
+                    <label for="checkin">Check-in Date:</label>
+                    <input type="date" id="checkin" name="checkin" required>
+                    <label for="checkout">Check-out Date:</label>
+                    <input type="date" id="checkout" name="checkout" required>
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" max="4" required>
+                    <input type="submit" value="Book Now">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
